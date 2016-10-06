@@ -1,0 +1,15 @@
+{
+  "name": "hyper-electron-highlighter",
+  "version": "1.0.0",
+  "description": "Hyper theme based on Atom Electron Highlighter syntax",
+  "main": "index.js",
+  "keywords": [
+    "hyper",
+    "hyper-theme",
+    "colors",
+    "atom",
+    "electron-highlighter"
+  ],
+  "author": "Mike McBride",
+  "license": "MIT"
+}

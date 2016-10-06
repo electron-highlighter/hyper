@@ -64,8 +64,9 @@ exports.decorateConfig = config => Object.assign({}, config, {
     .tabs_list {
       background-color: ${tabBg} !important;
       border-bottom-color: ${tabBgDark} !important;
-      padding: .5em .5em 0;
+      padding: .5em .5em 0 82px;
       max-height: 41px;
+      margin-left: 0;
     }
     .tab_tab {
       height: 3em;

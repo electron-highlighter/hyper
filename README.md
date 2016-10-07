@@ -11,7 +11,7 @@
 
   ```js
 plugins: [
-  'hyper-electron-highlighter'
+    'hyper-electron-highlighter'
 ],
 ```
 3. Fully reload HyperTerm (`Cmd+Shift+R`), and tada! :tada:

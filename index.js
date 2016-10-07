@@ -70,6 +70,12 @@ exports.decorateConfig = config => {
       .tab_tab.tab_active {
         font-weight: 600;
       }
+      .tab_firstActive {
+        border-left-width: 0px;
+      }
+      .tabs_borderShim {
+        border-width: 0 !important;
+      }
       .splitpane_divider {
         background-color: ${dividerBg};
       }

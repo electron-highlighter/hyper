@@ -29,9 +29,9 @@ const colors = {
 
 exports.decorateConfig = config => {
   const transparencyValue = config.transparentBgAlpha || 1
-  const backgroundColor = `rgba(33, 40, 54, ${transparencyValue})`
+  const backgroundColor = `rgba(33,40,54,${transparencyValue})`
   const foregroundColor = white
-  const cursorColor = '#528bff'
+  const cursorColor = 'rgba(82,139,255,.7)'
   const borderColor = '#4d596b'
   const tabBgDark = 'rgba(0,0,0,.15)'
   const tabText = 'rgba(153,163,184)'

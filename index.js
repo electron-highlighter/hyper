@@ -7,6 +7,7 @@ const yellow = '#fffa9e'
 const blue = '#71b1fe'
 const magenta = '#d59df6'
 const cyan = '#4ff2f8'
+const lightBlack = '#506686'
 
 const colors = {
   black,
@@ -17,7 +18,7 @@ const colors = {
   magenta,
   cyan,
   white,
-  lightBlack: black,
+  lightBlack,
   lightRed: red,
   lightGreen: green,
   lightYellow: yellow,
@@ -27,13 +28,15 @@ const colors = {
   lightWhite: white
 }
 
-exports.decorateConfig = config => {
+module.exports.onWindow = browserWindow => browserWindow.setVibrancy('dark')
+
+module.exports.decorateConfig = config => {
   const transparencyValue = config.transparentBgAlpha || 1
   const backgroundColor = `rgba(33,40,54,${transparencyValue})`
   const foregroundColor = white
-  const cursorColor = 'rgba(82,139,255,.7)'
+  const cursorColor = '#528bff'
   const borderColor = '#4d596b'
-  const tabBgDark = 'rgba(0,0,0,.15)'
+  const tabBgDark = 'rgba(0,0,0,.2)'
   const tabText = 'rgba(153,163,184)'
   const tabTextActive = '#d5d9e2'
   const dividerBg = borderColor

@@ -34,7 +34,7 @@ module.exports.decorateConfig = config => {
   const transparencyValue = config.transparentBgAlpha || 1
   const backgroundColor = `rgba(33,40,54,${transparencyValue})`
   const foregroundColor = white
-  const cursorColor = '#528bff'
+  const cursorColor = config.cursorColor || '#528bff'
   const borderColor = '#4d596b'
   const tabBgDark = 'rgba(0,0,0,.2)'
   const tabText = 'rgba(153,163,184)'

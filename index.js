@@ -35,11 +35,11 @@ module.exports.decorateConfig = config => {
   const backgroundColor = `rgba(33,40,54,${transparencyValue})`
   const foregroundColor = white
   const cursorColor = config.cursorColor || '#528bff'
-  const borderColor = '#4d596b'
+  const borderColor = 'rgb(64,74,89)'
   const tabBgDark = 'rgba(0,0,0,.2)'
   const tabText = 'rgba(153,163,184)'
   const tabTextActive = '#d5d9e2'
-  const dividerBg = borderColor
+  const dividerBg = 'rgba(64,74,89,.6)'
 
   return Object.assign({}, config, {
     foregroundColor,

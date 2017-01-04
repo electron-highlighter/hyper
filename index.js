@@ -80,7 +80,7 @@ module.exports.decorateConfig = config => {
         border-width: 0 !important;
       }
       .splitpane_divider {
-        background-color: ${dividerBg};
+        background-color: ${dividerBg} !important;
       }
     `
   })

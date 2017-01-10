@@ -10,6 +10,9 @@
     "atom",
     "electron-highlighter"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "author": "mmcbride1007",
   "license": "MIT"
 }

@@ -1,5 +1,5 @@
 'use strict'
-const black = '#212836'
+const black = '#1b212c'
 const white = '#97a7c8'
 const red = '#e76572'
 const green = '#6af699'
@@ -32,11 +32,11 @@ module.exports.onWindow = browserWindow => browserWindow.setVibrancy('dark')
 
 module.exports.decorateConfig = config => {
   const transparencyValue = config.transparentBgAlpha || 1
-  const backgroundColor = `rgba(33,40,54,${transparencyValue})`
+  const backgroundColor = transparencyValue === 1 ? black : `rgba(27,33,44,${transparencyValue})`
   const foregroundColor = white
   const cursorColor = config.cursorColor || '#528bff'
   const borderColor = 'rgb(64,74,89)'
-  const tabBgDark = 'rgba(0,0,0,.2)'
+  const tabBgDark = 'rgba(0,0,0,.15)'
   const tabText = 'rgba(153,163,184)'
   const tabTextActive = '#d5d9e2'
   const dividerBg = 'rgba(64,74,89,.6)'

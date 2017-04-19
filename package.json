@@ -1,6 +1,6 @@
 {
   "name": "hyper-electron-highlighter",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "Hyper theme based on Atom Electron Highlighter syntax",
   "main": "index.js",
   "keywords": [

@@ -55,36 +55,36 @@ module.exports.decorateConfig = config => {
     `,
     css: `
       ${config.css || ''}
-      ._nav {
+      .tabs_nav {
         background-color: ${tabNavBg};
         border-bottom: 1px solid ${borderColor};
       }
-      ._list {
+      .tabs_list {
         margin-left: 0;
       }
-      ._title {
+      .tabs_title {
   			display: none !important;
   		}
-      ._tab._first {
+      .tab_tab.tab_first {
         padding-left: 82px;
       }
-      ._tab ._textInner {
+      .tab_textInner {
         color: ${tabText};
         font-weight: 500;
       }
-      ._tab._active {
+      .tab_tab.tab_active {
         background-color: ${backgroundColor};
       }
-      ._tab._active ._textInner {
+      .tab_tab.tab_active .tab_textInner {
         color: ${tabTextActive};
       }
-      ._firstActive {
+      .tab_firstActive {
         border-left-width: 0px;
       }
-      ._borderShim {
+      .tabs_borderShim {
         border-width: 0 !important;
       }
-      ._divider {
+      .splitpane_divider {
         background-color: ${dividerBg} !important;
       }
     `

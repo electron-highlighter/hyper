@@ -37,7 +37,7 @@ module.exports.decorateConfig = config => {
   const cursorColor = config.cursorColor || '#528bff'
   const borderColor = '#141820'
   const tabNavBg = '#1b212c'
-  const tabText = 'rgba(153,163,184,.8)'
+  const tabText = '#7e8698'
   const tabTextActive = '#d5d9e2'
   const dividerBg = 'rgba(64,74,89,.4)'
   

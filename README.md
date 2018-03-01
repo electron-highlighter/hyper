@@ -1,8 +1,8 @@
 # Atom Electron Highlighter for Hyper
 
-[Hyper](https://hyper.is) theme based on [the Atom Electron Highlighter Syntax](https://github.com/mmcbride1007/electron-highlighter-syntax).
+[Hyper](https://hyper.is) theme based on [the Atom Electron Highlighter Syntax](https://github.com/mikemcbride/electron-highlighter-syntax).
 
-![](https://cdn.rawgit.com/mmcbride1007/hyper-electron-highlighter/7cf67de97e841fc57ae1f3b2cce98e35b899b12f/screenshot.png)
+![](https://cdn.rawgit.com/mikemcbride/hyper-electron-highlighter/7cf67de97e841fc57ae1f3b2cce98e35b899b12f/screenshot.png)
 
 ### Install
 

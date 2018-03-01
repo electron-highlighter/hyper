@@ -15,8 +15,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mmcbride1007/hyper-electron-highlighter.git"
+    "url": "git+https://github.com/mikemcbride/hyper-electron-highlighter.git"
   },
-  "author": "mmcbride1007",
+  "author": "mikemcbride",
   "license": "MIT"
 }

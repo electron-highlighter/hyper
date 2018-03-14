@@ -50,6 +50,9 @@ module.exports.decorateConfig = config => {
     termCSS: config.termCSS || '',
     css: `
       ${config.css || ''}
+      .terminal a {
+        color: ${cyan};
+      }
       .tabs_nav {
         background-color: ${tabNavBg};
         border-bottom: 1px solid ${borderColor};

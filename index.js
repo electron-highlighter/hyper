@@ -47,12 +47,7 @@ module.exports.decorateConfig = config => {
     borderColor,
     cursorColor,
     colors,
-    termCSS: `
-      ${config.termCSS || ''}
-      .cursor-node {
-        mix-blend-mode: difference;
-      }
-    `,
+    termCSS: config.termCSS || '',
     css: `
       ${config.css || ''}
       .tabs_nav {

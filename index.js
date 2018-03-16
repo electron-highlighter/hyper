@@ -47,25 +47,21 @@ module.exports.decorateConfig = config => {
     borderColor,
     cursorColor,
     colors,
-    termCSS: config.termCSS || '',
-    css: `
-      ${config.css || ''}
+    termCSS: `
+      ${config.termCSS || ''}
       .terminal a {
         color: ${cyan};
       }
+    `,
+    css: `
+      ${config.css || ''}
       .tabs_nav {
         background-color: ${tabNavBg};
         border-bottom: 1px solid ${borderColor};
       }
-      .tabs_list {
-        margin-left: 0;
-      }
       .tabs_title {
   			display: none !important;
   		}
-      .tab_tab.tab_first {
-        padding-left: 82px;
-      }
       .tab_textInner {
         color: ${tabText};
         font-weight: 500;
@@ -75,12 +71,6 @@ module.exports.decorateConfig = config => {
       }
       .tab_tab.tab_active .tab_textInner {
         color: ${tabTextActive};
-      }
-      .tab_firstActive {
-        border-left-width: 0px;
-      }
-      .tabs_borderShim {
-        border-width: 0 !important;
       }
       .splitpane_divider {
         background-color: ${dividerBg} !important;

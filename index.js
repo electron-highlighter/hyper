@@ -59,6 +59,9 @@ module.exports.decorateConfig = config => {
         background-color: ${tabNavBg};
         border-bottom: 1px solid ${borderColor};
       }
+      .tabs_borderShim {
+        border-bottom-width: 0px;
+      }
       .tabs_title {
   			display: none !important;
   		}

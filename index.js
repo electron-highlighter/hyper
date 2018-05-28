@@ -36,6 +36,7 @@ module.exports.decorateConfig = config => {
   const foregroundColor = white
   const cursorColor = config.cursorColor || '#528bff'
   const borderColor = '#141820'
+  const selectionColor = 'rgba(130, 170, 255, 0.3)'
   const tabNavBg = '#1b212c'
   const tabText = '#7e8698'
   const tabTextActive = '#d5d9e2'
@@ -46,6 +47,7 @@ module.exports.decorateConfig = config => {
     backgroundColor,
     borderColor,
     cursorColor,
+    selectionColor,
     colors,
     termCSS: `
       ${config.termCSS || ''}

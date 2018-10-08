@@ -2,7 +2,7 @@
 
 [Hyper](https://hyper.is) theme based on [the Atom Electron Highlighter Syntax](https://github.com/mikemcbride/electron-highlighter-syntax).
 
-![](https://cdn.rawgit.com/mikemcbride/hyper-electron-highlighter/8e8db099/screenshot.png)
+![](https://cdn.jsdelivr.net/gh/mikemcbride/hyper-electron-highlighter/screenshot.png)
 
 ### Install
 

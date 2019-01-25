@@ -29,8 +29,6 @@ const colors = {
   lightWhite: white
 }
 
-module.exports.onWindow = browserWindow => browserWindow.setVibrancy('dark')
-
 module.exports.decorateConfig = config => {
   const backgroundColor = black
   const foregroundColor = white
@@ -61,9 +59,11 @@ module.exports.decorateConfig = config => {
         background-color: ${tabNavBg};
         border-bottom: 1px solid ${borderColor};
       }
+      /* hide the tab border shim, we are providing our own */
       .tabs_borderShim {
         border-bottom-width: 0px;
       }
+      /* Hide title when only one tab */
       .tabs_title {
   			display: none !important;
   		}

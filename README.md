@@ -14,7 +14,7 @@ plugins: [
       'hyper-electron-highlighter'
 ],
 ```
-3. Fully reload HyperTerm (`Cmd+Shift+R`), and tada! :tada:
+3. Fully reload Hyper (`Cmd+Shift+R`), and tada! :tada:
 
 ### License
 

@@ -1,14 +1,14 @@
-'use strict'
+'use strict';
 
-const black = '#212836'
-const white = '#a8b5d1'
-const red = '#ff5874'
-const green = '#6af699'
-const yellow = '#fffa9e'
-const blue = '#82aaff'
-const magenta = '#c792ea'
-const cyan = '#4ff2f8'
-const lightBlack = '#7992b4'
+const black = '#212836';
+const white = '#a8b5d1';
+const red = '#ff5874';
+const green = '#6af699';
+const yellow = '#fffa9e';
+const blue = '#82aaff';
+const magenta = '#c792ea';
+const cyan = '#4ff2f8';
+const lightBlack = '#7992b4';
 
 const colors = {
   black,
@@ -27,18 +27,18 @@ const colors = {
   lightMagenta: magenta,
   lightCyan: cyan,
   lightWhite: white
-}
+};
 
 module.exports.decorateConfig = config => {
-  const backgroundColor = black
-  const foregroundColor = white
-  const cursorColor = config.cursorColor || '#528bff'
-  const borderColor = '#141820'
-  const selectionColor = 'rgba(130, 170, 255, 0.3)'
-  const tabNavBg = '#1b212c'
-  const tabText = '#7e8698'
-  const tabTextActive = '#d5d9e2'
-  const dividerBg = 'rgba(64,74,89,.4)'
+  const backgroundColor = black;
+  const foregroundColor = white;
+  const cursorColor = config.cursorColor || '#528bff';
+  const borderColor = '#141820';
+  const selectionColor = 'rgba(130, 170, 255, 0.3)';
+  const tabNavBg = 'red';
+  const tabText = '#7e8698';
+  const tabTextActive = '#d5d9e2';
+  const dividerBg = 'rgba(64,74,89,.4)';
   
   return Object.assign({}, config, {
     foregroundColor,
@@ -82,4 +82,4 @@ module.exports.decorateConfig = config => {
       }
     `
   })
-}
+};

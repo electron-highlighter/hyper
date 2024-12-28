@@ -1,20 +1,20 @@
 # Electron Highlighter for Hyper
 
-[Hyper](https://hyper.is) theme based on [the Electron Highlighter Syntax](https://mikemcbride.dev/electron-highlighter).
+[Hyper](https://hyper.is) theme based on [the Electron Highlighter Syntax](https://electron-highlighter.github.io).
 
-![](https://cdn.jsdelivr.net/gh/mikemcbride/hyper-electron-highlighter@52b9c5e2147559896c301c17cc7ae696cbbfc010/screenshot.png)
+![Screenshot](https://cdn.jsdelivr.net/gh/electron-highlighter/hyper@118772a06e52bdca1333deeaf9a38c4fdaab8c16/screenshot.png)
 
 ### Install
 
-1. Open Hyper's preferences with `Cmd + ,` (or manually at `~/.hyper.js`) with your editor.
-2. Update your list of plugins to include `hyper-electron-highlighter`, like so:
+1. Open Hyper's preferences with `cmd + ,` (or manually at `~/.hyper.js`) with your editor.
+2. Update your list of plugins to include `@electron-highlighter/hyper`, like so:
 
   ```js
 plugins: [
-      'hyper-electron-highlighter'
+    '@electron-highlighter/hyper'
 ],
 ```
-3. Fully reload Hyper (`Cmd+Shift+R`), and tada! :tada:
+3. Fully reload Hyper (`cmd + shift + r`), and enjoy your new theme!
 
 ### License
 

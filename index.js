@@ -1,14 +1,14 @@
 'use strict'
 
-const black = '#212836'
+const black = '#24283b'
 const white = '#a8b5d1'
-const red = '#ff5874'
-const green = '#6af699'
-const yellow = '#fffa9e'
+const red = '#f7768e'
+const green = '#58ffc7'
+const yellow = '#ffd9af'
 const blue = '#82aaff'
-const magenta = '#c792ea'
-const cyan = '#4ff2f8'
-const lightBlack = '#7992b4'
+const magenta = '#d2a6ef'
+const cyan = '#57f9ff'
+const lightBlack = '#7c8eac'
 
 const colors = {
   black,
@@ -30,13 +30,14 @@ const colors = {
 }
 
 module.exports.decorateConfig = config => {
-  const backgroundColor = black
-  const foregroundColor = white
-  const cursorColor = config.cursorColor || '#528bff'
+  const backgroundColor = colors.black
+  const foregroundColor = colors.white
+  const cursorColor = config.cursorColor || colors.white
+  const cursorAccentColor = config.cursorAccentColor || colors.black
   const borderColor = '#141820'
   const selectionColor = 'rgba(130, 170, 255, 0.3)'
   const tabNavBg = '#1b212c'
-  const tabText = '#7e8698'
+  const tabText = colors.lightBlack
   const tabTextActive = '#d5d9e2'
   const dividerBg = 'rgba(64,74,89,.4)'
   
@@ -45,6 +46,7 @@ module.exports.decorateConfig = config => {
     backgroundColor,
     borderColor,
     cursorColor,
+    cursorAccentColor,
     selectionColor,
     colors,
     termCSS: `

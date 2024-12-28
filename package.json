@@ -1,5 +1,5 @@
 {
-  "name": "hyper-electron-highlighter",
+  "name": "@electron-highlighter/hyper",
   "version": "4.4.0",
   "description": "Hyper theme based on Atom Electron Highlighter syntax",
   "main": "index.js",

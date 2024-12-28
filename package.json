@@ -10,6 +10,9 @@
     "atom",
     "electron-highlighter"
   ],
+  "scripts": {
+    "test": "exit 0"
+  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },

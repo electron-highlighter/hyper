@@ -19,3 +19,9 @@ plugins: [
 ### License
 
 MIT
+
+## Electron Highlighter Day (light)
+
+A light variant is available alongside the dark theme. Use the `electron-highlighter-day.js` file in this
+folder the same way you use the dark one. The Day files are generated from the `palette/` repo —
+edit the palette there and run `npm run build` to regenerate.
